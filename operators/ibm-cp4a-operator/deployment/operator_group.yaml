@@ -7,4 +7,4 @@ metadata:
   namespace: cp4ba
 spec:
   targetNamespaces:
-  - cp4ab
+  - cp4ba
