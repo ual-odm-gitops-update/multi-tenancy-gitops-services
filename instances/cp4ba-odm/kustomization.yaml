@@ -1,0 +1,4 @@
+resources:
+- odm/ibm-ban-secert.yaml
+- odm/odm-db-secret.yaml
+- odm/icp4adeploy.yaml

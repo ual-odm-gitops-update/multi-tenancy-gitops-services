@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha2
+kind: OperatorGroup
+metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "220"
+  name: ibm-cp4a-operator-catalog-group
+  namespace: cp4ba
+spec:
+  targetNamespaces:
+  - cp4ab

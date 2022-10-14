@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha2
+kind: OperatorGroup
+metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "230"
+  name: operatorgroup
+  namespace: ibm-common-services
+spec:
+  targetNamespaces:
+  - ibm-common-services
